@@ -25,14 +25,14 @@ function Navbar() {
               Best<span className=" font-bold">Eats</span>
             </h1>
           </div>
-          <div className=" flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
+          <div className=" md:flex items-center bg-gray-200 rounded-full p-1 text-[14px] hidden">
             <p className=" bg-black text-white p-2 rounded-full ">Delivery</p>
             <p className="p-2">Pickup</p>
           </div>
         </div>
         {/*search*/}
 
-        <div className=" bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
+        <div className=" hidden bg-gray-200 rounded-full md:flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
           <AiOutlineSearch size={25} />
           <input
             className=" bg-transparent p-2 w-full focus:outline-none"
